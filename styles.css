@@ -1,0 +1,110 @@
+html {
+    margin-top: 50px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #414141;
+}
+#container {
+    width: 1250px;
+}
+
+#logo {
+    width: 200px;
+    height: 50px;
+    margin-left: 42%;
+    margin-bottom: 50px;
+}
+
+#store-nav {
+    display: inline-flex;
+    position: relative;
+    float: right;
+}
+
+#store-nav li {
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.paired-dividers {
+    margin: 0 0 20px 0;
+}
+
+.paired-dividers hr {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1px;
+}
+
+nav {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+#main-nav {
+    list-style-type: none;
+    float: left;
+}
+
+#main-nav li {
+    display: inline;
+    text-transform: uppercase;
+    font-family: 'Droid Serif', Georgia, Times, serif;
+    color: #414141;
+    font-size: 1em;
+    padding: 0px 25px 0px 25px;
+    border-right: 1px solid #dcdcdc;
+}
+
+#main-nav li:last-child {
+    border-right: none;
+}
+
+#social-nav {
+    display: inline-flex;
+    float: right;
+}
+
+#social-nav li {
+    list-style-type: none;
+    padding: 0px 10px 0px 10px;
+}
+
+#recent-posts {
+    margin-top: 50px;
+}
+
+.recent-post-title-container {
+    background: rgba(250, 250, 255, 0.9);
+    border: 1px solid #FAFAFF;
+    position: relative;
+    top: -8em;
+    width: 375px;
+    height: 115px;
+    margin: 0 auto;
+}
+
+.recent-post-title-cat {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #666;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.recent-post-title-container h2 {
+    font-size: 20px;
+}
+
+.recent-post-date {
+    font-family: 'Open Sans' sans-serif;
+    font-size: 16px;
+    color: #666;
+    font-weight: lighter;
+
+
+}
