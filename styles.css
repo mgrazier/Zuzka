@@ -78,6 +78,11 @@ nav {
     margin-top: 50px;
 }
 
+.img-featured {
+    border: 1px solid #dcdcdc;
+    padding: 2px;
+}
+
 .recent-post-title-container {
     background: rgba(250, 250, 255, 0.9);
     border: 1px solid #FAFAFF;
@@ -172,4 +177,54 @@ hr {
     color: #B272A6;
     text-decoration: none;
     border-bottom: 1pxx dotted #efefef;
+}
+
+#weekly-schedule {
+    display: table;
+    table-layout: fixed;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#weekly-schedule li {
+    display: inline-block;
+    width: 160px;
+    height: 200px;
+    float: none;
+    margin: 0px;
+    padding: 5px;
+    overflow: auto;
+    opacity: .6;
+}
+
+.schedule-heading {
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+.img-schedule {
+    width: 140px;
+    height: 120px;
+    border: 1px solid #dcdcdc;
+    padding: 2px;
+}
+
+.active {
+    color: #B272A6;
+    opacity: 1 !important;
+}
+
+.active a {
+    color: #B272A6;
+}
+
+.today {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0, 0.2);
+    box-shadow: 0 6px 20px 0 rba(0,0,0,0.19);
+    z-index: 10;
 }
